@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rmcet.alumni">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:debuggable="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".anavi"
+            android:label="@string/title_activity_anavi"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".faq" />
+        <activity android:name=".mail" />
+        <activity
+            android:name=".tab7"
+            android:label="@string/title_activity_tab7"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".main" />
+        <activity android:name=".tabs" />
+        <activity android:name=".Alogin" />
+        <activity android:name=".donation" />
+        <activity android:name=".login" />
+        <activity android:name=".admin_feedback" />
+        <activity android:name=".admin_donation" />
+        <activity android:name=".admin_contribution" />
+        <activity android:name=".admin_allalumni" />
+        <activity android:name=".admin_addalumni" />
+        <activity android:name=".admin" />
+        <activity android:name=".help_page" />
+        <activity android:name=".AlumniRegActivity" />
+        <activity android:name=".help" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login_page"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".feedback_page"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".register_page"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".first_login"
+            android:label="@string/app_name" />
+    </application>
+
+</manifest>

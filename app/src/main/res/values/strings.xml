@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Alumni</string>
+    <string name="title_activity_login_page">login_page</string>
+    <string name="title_activity_naigationdrawer">naigationdrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_help">Help</string>
+
+    <string name="contribution_prompt">choose a contribution type</string>
+    <string-array name="arrays">
+        <item>Placement</item>
+        <item>Training</item>
+        <item>Internship</item>
+        <item>Guest lecture</item>
+        <item>Workshop</item>
+        <item>financial</item>
+
+
+    </string-array>
+
+    <string name="donation_prompt">choose a card type</string>
+    <string-array name="pay">
+        <item>Credit Cared - Axis</item>
+        <item>Debit Card - Axic</item>
+        <item>Credit Cared - BOI</item>
+        <item>Debit Card - Axic</item>
+        <item>Credit Cared - ICICI</item>
+        <item>Debit Card - ICICI</item>
+
+
+    </string-array>
+    <string name="title_activity_anavi">anavi</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">News</string>
+    <string name="menu_slideshow">Donation</string>
+    <string name="menu_tools">Feedback</string>
+    <string name="menu_share">Contact</string>
+    <string name="menu_send">FAQ</string>
+    <string name="title_activity_tab7">tab7</string>
+    <string name="tab_text_1">Home</string>
+    <string name="tab_text_2">News</string>
+
+
+
+</resources>
